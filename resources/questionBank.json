@@ -1,0 +1,362 @@
+{
+    "topics": [
+        {
+            "topicID": 101,
+            "topicName": "Notes",
+            "questions": [
+                {
+                    "questionID": 1,
+                    "Title": "Identify Ebb",
+                    "Description": "Press the key for Ebb",
+                    "ExpectedInput": "Ebb",
+                    "difficulty": 2
+                },
+                {
+                    "questionID": 2,
+                    "Title": "Identify Gbb",
+                    "Description": "Press the key for Gbb",
+                    "ExpectedInput": "Gbb",
+                    "difficulty": 2
+                },
+                {
+                    "questionID": 3,
+                    "Title": "Identify Cbb",
+                    "Description": "Press the key for Cbb",
+                    "ExpectedInput": "Cbb",
+                    "difficulty": 2
+                },
+                {
+                    "questionID": 4,
+                    "Title": "Identify C##",
+                    "Description": "Press the key for C##",
+                    "ExpectedInput": "C##",
+                    "difficulty": 2
+                },
+                {
+                    "questionID": 5,
+                    "Title": "Identify D##",
+                    "Description": "Press the key for D##",
+                    "ExpectedInput": "D##",
+                    "difficulty": 2
+                },
+                {
+                    "questionID": 6,
+                    "Title": "Identify A##",
+                    "Description": "Press the key for A##",
+                    "ExpectedInput": "A##",
+                    "difficulty": 2
+                },
+                {
+                    "questionID": 7,
+                    "Title": "Identify Fb",
+                    "Description": "Press the key for Fb",
+                    "ExpectedInput": "Fb",
+                    "difficulty": 1
+                },
+                {
+                    "questionID": 8,
+                    "Title": "Identify Cb",
+                    "Description": "Press the key for Cb",
+                    "ExpectedInput": "Cb",
+                    "difficulty": 1
+                },
+                {
+                    "questionID": 9,
+                    "Title": "Identify Bb",
+                    "Description": "Press the key for Bb",
+                    "ExpectedInput": "Bb",
+                    "difficulty": 1
+                },
+                {
+                    "questionID": 10,
+                    "Title": "Identify C",
+                    "Description": "Press the key for C",
+                    "ExpectedInput": "C",
+                    "difficulty": 0
+                },
+                {
+                    "questionID": 11,
+                    "Title": "Identify D",
+                    "Description": "Press the key for D",
+                    "ExpectedInput": "D",
+                    "difficulty": 0
+                },
+                {
+                    "questionID": 12,
+                    "Title": "Identify A",
+                    "Description": "Press the key for A",
+                    "ExpectedInput": "A",
+                    "difficulty": 0
+                },
+                {
+                    "questionID": 13,
+                    "Title": "Identify C#",
+                    "Description": "Press the key for C#",
+                    "ExpectedInput": "C#",
+                    "difficulty": 1
+                },
+                {
+                    "questionID": 14,
+                    "Title": "Identify D#",
+                    "Description": "Press the key for D#",
+                    "ExpectedInput": "D#",
+                    "difficulty": 1
+                },
+                {
+                    "questionID": 15,
+                    "Title": "Identify F#",
+                    "Description": "Press the key for F#",
+                    "ExpectedInput": "F#",
+                    "difficulty": 1
+                }
+            ]
+        },
+        {
+            "topicID": 102,
+            "topicName": "Chords:(Seventh, Augmenetd)",
+            "questions": [
+                {
+                    "questionID": 16,
+                    "Title": "Play a C Augmented Chord",
+                    "Description": "Play C, E, G# together",
+                    "ExpectedInput": "C-E-G#",
+                    "difficulty": 2
+                },
+                {
+                    "questionID": 17,
+                    "Title": "Play a C# Augmented Chord",
+                    "Description": "Play C#, F, A together",
+                    "ExpectedInput": "C#-F-A",
+                    "difficulty": 2
+                },
+                {
+                    "questionID": 18,
+                    "Title": "Play a D Augmented Chord",
+                    "Description": "Play D, F#, A# together",
+                    "ExpectedInput": "D-F#-A#",
+                    "difficulty": 2
+                },
+                {
+                    "questionID": 19,
+                    "Title": "Play a D# Augmented Chord",
+                    "Description": "Play D#, G, B together",
+                    "ExpectedInput": "D#-G-B",
+                    "difficulty": 2
+                },
+                {
+                    "questionID": 20,
+                    "Title": "Play a C Major 7 Chord",
+                    "Description": "Play C, E, G, B together",
+                    "ExpectedInput": "C-E-G-B",
+                    "difficulty": 2
+                },
+                {
+                    "questionID": 21,
+                    "Title": "Play a C Minor 7 Chord",
+                    "Description": "Play C, Eb, G, Bb together",
+                    "ExpectedInput": "C-Eb-G-Bb",
+                    "difficulty": 2
+                },
+                {
+                    "questionID": 22,
+                    "Title": "Play a C# Minor 7 Chord",
+                    "Description": "Play C#, E, G#, B together",
+                    "ExpectedInput": "C#-E-G#-B",
+                    "difficulty": 2
+                }
+            ]
+        },
+        {
+            "topicID": 103,
+            "topicName": "Triad Chords:(Major, Minor, Diminished)",
+            "questions": [
+                {
+                    "questionID": 23,
+                    "Title": "Play a C Major Chord",
+                    "Description": "Play C, E, G together",
+                    "ExpectedInput": "C-E-G",
+                    "difficulty": 0
+                },
+                {
+                    "questionID": 24,
+                    "Title": "Play a C# Major Chord",
+                    "Description": "Play C#, F, G# together",
+                    "ExpectedInput": "C#-F-G#",
+                    "difficulty": 0
+                },
+                {
+                    "questionID": 25,
+                    "Title": "Play a D Major Chord",
+                    "Description": "Play D, F#, A together",
+                    "ExpectedInput": "D-F#-A",
+                    "difficulty": 0
+                },
+                {
+                    "questionID": 26,
+                    "Title": "Play a D# Major Chord",
+                    "Description": "Play D#, G, A# together",
+                    "ExpectedInput": "D#-G-A#",
+                    "difficulty": 0
+                },
+                {
+                    "questionID": 27,
+                    "Title": "Play an E Major Chord",
+                    "Description": "Play E, G#, B together",
+                    "ExpectedInput": "E-G#-B",
+                    "difficulty": 0
+                },
+                {
+                    "questionID": 28,
+                    "Title": "Play a C Minor Chord",
+                    "Description": "Play C, Eb, G together",
+                    "ExpectedInput": "C-Eb-G",
+                    "difficulty": 0
+                },
+                {
+                    "questionID": 29,
+                    "Title": "Play a C# Minor Chord",
+                    "Description": "Play C#, E, G# together",
+                    "ExpectedInput": "C#-E-G#",
+                    "difficulty": 0
+                },
+                {
+                    "questionID": 30,
+                    "Title": "Play a D Minor Chord",
+                    "Description": "Play D, F, A together",
+                    "ExpectedInput": "D-F-A",
+                    "difficulty": 0
+                },
+                {
+                    "questionID": 31,
+                    "Title": "Play a D# Minor Chord",
+                    "Description": "Play D#, F#, A# together",
+                    "ExpectedInput": "D#-F#-A#",
+                    "difficulty": 0
+                },
+                {
+                    "questionID": 32,
+                    "Title": "Play an E Minor Chord",
+                    "Description": "Play E, G, B together",
+                    "ExpectedInput": "E-G-B",
+                    "difficulty": 0
+                }
+            ]
+        },
+        {
+            "topicID": 104,
+            "topicName": "Scales",
+            "questions": [
+                {
+                    "questionID": 33,
+                    "Title": "Play the C Whole Tone Scale",
+                    "Description": "Paly C-D-E-F#-G#-A#-C.",
+                    "ExpectedInput": "C-D-E-F#-G#-A#",
+                    "difficulty": 2
+                },
+                {
+                    "questionID": 34,
+                    "Title": "Play the C Natural Minor Scale",
+                    "Description": "Play C-D-Eb-F-G-Ab-Bb-C.",
+                    "ExpectedInput": "C-D-Eb-F-G-Ab-Bb",
+                    "difficulty": 0
+                },
+                {
+                    "questionID": 35,
+                    "Title": "Play the C Major Scale",
+                    "Description": "Play C-D-E-F-G-A-B-C.",
+                    "ExpectedInput": "C-D-E-F-G-A-B",
+                    "difficulty": 0
+                },
+                {
+                    "questionID": 36,
+                    "Title": "Play the C Harmonic Minor Scale",
+                    "Description": "Play C-D-Eb-F-G-Ab-B-C.",
+                    "ExpectedInput": "C-D-Eb-F-G-Ab-B",
+                    "difficulty": 1
+                },
+                {
+                    "questionID": 37,
+                    "Title": "Play the C Melodic Minor Scale",
+                    "Description": "Play C-D-Eb-F-G-A-B-C.",
+                    "ExpectedInput": "C-D-Eb-F-G-A-B",
+                    "difficulty": 1
+                },
+                {
+                    "questionID": 38,
+                    "Title": "Play the C Major Pentatonic Scale",
+                    "Description": "Play C-D-E-G-A-C.",
+                    "ExpectedInput": "C-D-E-G-A",
+                    "difficulty": 0
+                },
+                {
+                    "questionID": 39,
+                    "Title": "Play the C Chromatic Scale",
+                    "Description": "Play C-C#-D-D#-E-F-F#-G-G#-A-A#-B-C.",
+                    "ExpectedInput": "C-C#-D-D#-E-F-F#-G-G#-A-A#-B",
+                    "difficulty": 2
+                },
+                {
+                    "questionID": 40,
+                    "Title": "Play the C Blues Scale",
+                    "Description": "Play C-Eb-F-F#-G-Bb-C.",
+                    "ExpectedInput": "C-Eb-F-F#-G-Bb",
+                    "difficulty": 1
+                }
+            ]
+        },
+        {
+            "topicID": 105,
+            "topicName": "Intervals",
+            "questions": [
+                {
+                    "questionID": 41,
+                    "Title": "Identify a Perfect Fourth",
+                    "Description": "Press C and F together",
+                    "ExpectedInput": "C-F",
+                    "difficulty": 0
+                },
+                {
+                    "questionID": 42,
+                    "Title": "Identify a Perfect Fifth",
+                    "Description": "Press C and G together",
+                    "ExpectedInput": "C-G",
+                    "difficulty": 1
+                },
+                {
+                    "questionID": 43,
+                    "Title": "Identify a Minor Third",
+                    "Description": "Press A and C together",
+                    "ExpectedInput": "A-C",
+                    "difficulty": 2
+                }
+            ]
+        },
+        {
+            "topicID": 106,
+            "topicName": "Melody",
+            "questions": [
+                {
+                    "questionID": 44,
+                    "Title": "Play a Simple Melody",
+                    "Description": "Play C-D-E-G-F in order",
+                    "ExpectedInput": "C-D-E-G-F",
+                    "difficulty": 0
+                },
+                {
+                    "questionID": 45,
+                    "Title": "Play a Simple Pattern",
+                    "Description": "Play C-E-D-F with a steady beat",
+                    "ExpectedInput": "C-E-D-F",
+                    "difficulty": 1
+                },
+                {
+                    "questionID": 46,
+                    "Title": "Play a Chord Progression C",
+                    "Description": "Play C-Dm-Em-F",
+                    "ExpectedInput": "C-Dm-Em-F",
+                    "difficulty": 2
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "lessons": {
+        "topics": {
+            "101": {
+                "statistics":{
+                    "scores": [],
+                    "accuracy": [],
+                    "attempts": []
+                }
+            },
+            "102": {
+                "statistics":{
+                    "scores": [],
+                    "accuracy": [],
+                    "attempts": []
+                }
+            },
+            "103": {
+                "statistics":{
+                    "scores": [],
+                    "accuracy": [],
+                    "attempts": []
+                }
+            },
+            "104": {
+                "statistics":{
+                    "scores": [],
+                    "accuracy": [],
+                    "attempts": []
+                }
+            },
+            "105": {
+                "statistics":{
+                    "scores": [],
+                    "accuracy": [],
+                    "attempts": []
+                }
+            },
+            "106": {
+                "statistics":{
+                    "scores": [],
+                    "accuracy": [],
+                    "attempts": []
+                }
+            }
+        }
+    },
+    "settings": {
+        "backgroundMusicLevel": 100,
+        "fxsoundLevel": 100
+    },
+    "qtable":{
+        "newUser": true,
+        "table":{
+
+        }
+    }
+}
