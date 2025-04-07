@@ -1,0 +1,2109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1280</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>3840</width>
+    <height>2160</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>KeyQuest</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LayoutDirection::LeftToRight</enum>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1280</width>
+     <height>720</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>3840</width>
+     <height>2160</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>30</y>
+      <width>1920</width>
+      <height>1080</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1280</width>
+      <height>720</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>3840</width>
+      <height>2160</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="MainPage" name="mainPage">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>1280</width>
+       <height>720</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>3840</width>
+       <height>2160</height>
+      </size>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LayoutDirection::LeftToRight</enum>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="QPushButton" name="quizzesButton">
+      <property name="geometry">
+       <rect>
+        <x>880</x>
+        <y>370</y>
+        <width>180</width>
+        <height>180</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/resources/QuizzesButton.png) 240 240 240 240 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/resources/QuizzesDarkButton.png) 240 240 240 240 stretch stretch;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/resources/QuizzesDarkButton.png) 240 240 240 240 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="lessonsButton">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>370</y>
+        <width>180</width>
+        <height>180</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/resources/LessonsButton.png) 240 240 240 240 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/resources/LessonsDarkButton.png) 240 240 240 240 stretch stretch;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/resources/LessonsDarkButton.png) 240 240 240 240 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="multiplayerButton">
+      <property name="geometry">
+       <rect>
+        <x>1130</x>
+        <y>370</y>
+        <width>180</width>
+        <height>180</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/resources/MultiplayerButton.png) 240 240 240 240 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/resources/MultiplayerDarkButton.png) 240 240 240 240 stretch stretch;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/resources/MultiplayerDarkButton.png) 240 240 240 240 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="statisticsButton">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>580</y>
+        <width>180</width>
+        <height>180</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/resources/StatisticsButton.png) 240 240 240 240 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/resources/StatisticsDarkButton.png) 240 240 240 240 stretch stretch;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/resources/StatisticsDarkButton.png) 240 240 240 240 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="settingsButton">
+      <property name="geometry">
+       <rect>
+        <x>880</x>
+        <y>580</y>
+        <width>180</width>
+        <height>180</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/resources/SettingsButton.png) 240 240 240 240 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/resources/SettingsDarkButton.png) 240 240 240 240 stretch stretch;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/resources/SettingsDarkButton.png) 240 240 240 240 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="exitButton">
+      <property name="geometry">
+       <rect>
+        <x>1130</x>
+        <y>580</y>
+        <width>180</width>
+        <height>180</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/resources/ExitButton.png) 240 240 240 240 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/resources/ExitDarkButton.png) 240 240 240 240 stretch stretch;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/resources/ExitDarkButton.png) 240 240 240 240 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="LessonsPage" name="lessonsPageScreen">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="QFrame" name="lessonsPlayPlaceHolder">
+      <property name="geometry">
+       <rect>
+        <x>519</x>
+        <y>20</y>
+        <width>971</width>
+        <height>541</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#lessonsPlayPlaceHolder{
+	
+	border-image: url(:/lessons/lessonsImages/lessonsGameBackground.png);
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+      <widget class="QLabel" name="titleLabel">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>180</y>
+         <width>731</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="descriptionLabel">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>310</y>
+         <width>731</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="playerScoreLabel">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>25</y>
+         <width>111</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="accuracyLabel">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>80</y>
+         <width>131</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="lessonsPagePianoHolder">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>590</y>
+        <width>971</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ReturnToLessonsPage">
+      <property name="geometry">
+       <rect>
+        <x>1510</x>
+        <y>590</y>
+        <width>180</width>
+        <height>180</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/resources/ReturnButton.png) 240 240 240 240 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+	background: transparent;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/resources/ReturnDarkButton.png) 240 240 240 240 stretch stretch;
+	background: transparent;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/resources/ReturnDarkButton.png) 240 240 240 240 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+	background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="LessonsPage" name="LocalMultiplayerPage">
+     <widget class="QLabel" name="selectGameMode1">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>-40</y>
+        <width>500</width>
+        <height>500</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="multiplayerImages.qrc">:/multiplayer/multiplayerImages/selectGameMode.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="generalGamePlay">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>330</y>
+        <width>350</width>
+        <height>350</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/lessons/lessonsImages/BasicPianoNotesBook.png) 0 0 0 0 stretch stretch; /*top, left, bottom, right */
+    border: none; /* Remove border */
+    padding: 0px;
+	background: transparent;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/lessons/lessonsImages/BasicPianoNotesBook.png) 0 0 0 0 stretch stretch;
+	background: transparent;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/lessons/lessonsImages/BasicPianoNotesBook.png) 0 0 0 0 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+	background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="returnFromLocalButton">
+      <property name="geometry">
+       <rect>
+        <x>1660</x>
+        <y>590</y>
+        <width>180</width>
+        <height>180</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/resources/ReturnButton.png) 240 240 240 240 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+	background: transparent;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/resources/ReturnDarkButton.png) 240 240 240 240 stretch stretch;
+	background: transparent;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/resources/ReturnDarkButton.png) 240 240 240 240 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+	background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="multiplayerMajorMinorChords">
+      <property name="geometry">
+       <rect>
+        <x>780</x>
+        <y>320</y>
+        <width>350</width>
+        <height>350</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/lessons/lessonsImages/MajorAndMinorChordsBook.png) 0 0 0 0 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+	background: transparent;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/lessons/lessonsImages/MajorAndMinorChordsBook.png) 0 0 0 0 stretch stretch;
+	background: transparent;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/lessons/lessonsImages/MajorAndMinorChordsBook.png) 0 0 0 0 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+	background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="identifyingMajorThird">
+      <property name="geometry">
+       <rect>
+        <x>780</x>
+        <y>680</y>
+        <width>350</width>
+        <height>350</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/lessons/lessonsImages/IdentifyingBook.png) 0 0 0 0 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+	background: transparent;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/lessons/lessonsImages/IdentifyingBook.png)  0 0 0 0 stretch stretch;
+	background: transparent;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/lessons/lessonsImages/IdentifyingBook.png)  0 0 0 0 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+	background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Scales">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>680</y>
+        <width>350</width>
+        <height>350</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/lessons/lessonsImages/MajorAndMinorScalesBook.png)  0 0 0 0 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+	background: transparent;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/lessons/lessonsImages/MajorAndMinorScalesBook.png)  0 0 0 0 stretch stretch;
+	background: transparent;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/lessons/lessonsImages/MajorAndMinorScalesBook.png)   0 0 0 0 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+	background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Triad">
+      <property name="geometry">
+       <rect>
+        <x>1240</x>
+        <y>320</y>
+        <width>350</width>
+        <height>350</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/lessons/lessonsImages/MajorAndMinorTriadsBook.png)  0 0 0 0 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+	background: transparent;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/lessons/lessonsImages/MajorAndMinorTriadsBook.png)  0 0 0 0 stretch stretch;
+	background: transparent;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/lessons/lessonsImages/MajorAndMinorScalesBook.png)   0 0 0 0 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+	background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Rhythm">
+      <property name="geometry">
+       <rect>
+        <x>1240</x>
+        <y>680</y>
+        <width>350</width>
+        <height>350</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/lessons/lessonsImages/PlayingBook.png)  0 0 0 0 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+	background: transparent;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/lessons/lessonsImages/PlayingBook.png)  0 0 0 0 stretch stretch;
+	background: transparent;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/lessons/lessonsImages/PlayingBook.png)   0 0 0 0 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+	background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="LessonsPage" name="localGamePlayScreen">
+     <widget class="QFrame" name="pianoLocalPlaceholder">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>590</y>
+        <width>971</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="returnToLocalGamePlayScreen">
+      <property name="geometry">
+       <rect>
+        <x>1500</x>
+        <y>600</y>
+        <width>180</width>
+        <height>180</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/resources/ReturnButton.png) 240 240 240 240 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+	background: transparent;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/resources/ReturnDarkButton.png) 240 240 240 240 stretch stretch;
+	background: transparent;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/resources/ReturnDarkButton.png) 240 240 240 240 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+	background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QFrame" name="gamePlayPlaceHolder">
+      <property name="geometry">
+       <rect>
+        <x>519</x>
+        <y>20</y>
+        <width>971</width>
+        <height>541</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#gamePlayPlaceHolder{
+	border-image: url(:/lessons/lessonsImages/localGameBackground.png);
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+      <widget class="QLabel" name="titleLabelLocal">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>180</y>
+         <width>711</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="descriptionLabelLocal">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>310</y>
+         <width>721</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="player1ScoreLabelLocal">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>66</y>
+         <width>121</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="player2ScoreLabelLocal">
+       <property name="geometry">
+        <rect>
+         <x>842</x>
+         <y>63</y>
+         <width>121</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="currentPlayerLabelLocal">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>60</y>
+         <width>201</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="LessonsPage" name="quizzesPage">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="QPushButton" name="returnFromQuizzesButton">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>810</y>
+        <width>180</width>
+        <height>180</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/resources/ReturnButton.png) 240 240 240 240 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/resources/ReturnDarkButton.png) 240 240 240 240 stretch stretch;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/resources/ReturnDarkButton.png) 240 240 240 240 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="selectQuizzesLabel">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>-50</y>
+        <width>691</width>
+        <height>571</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="lessonsImages.qrc">:/lessons/lessonsImages/selectQuizzes.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="startButton">
+      <property name="geometry">
+       <rect>
+        <x>870</x>
+        <y>580</y>
+        <width>180</width>
+        <height>180</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/resources/StartButton.png) 240 240 240 240 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/resources/StartButtonDark.png) 240 240 240 240 stretch stretch;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/resources/StartButtonDark.png) 240 240 240 240 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="MainPage" name="settingsPage">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>1280</width>
+       <height>720</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>3840</width>
+       <height>2160</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="QFrame" name="settingsBackgroundFrame">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>230</y>
+        <width>801</width>
+        <height>641</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame {
+	
+	border-image: url(:/resources/settingsBackground.png);
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+      <widget class="QComboBox" name="colourblindModeBox">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>230</y>
+         <width>221</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Disabled</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Protanopia</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Deuternopia</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tritanopia</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Monochromacy</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QSlider" name="musicVolumeSlider">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>380</y>
+         <width>241</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="singleStep">
+        <number>1</number>
+       </property>
+       <property name="value">
+        <number>30</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <property name="tickPosition">
+        <enum>QSlider::TickPosition::TicksAbove</enum>
+       </property>
+      </widget>
+      <widget class="QSlider" name="sfxVolumeSlider">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>440</y>
+         <width>241</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="value">
+        <number>50</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <property name="tickPosition">
+        <enum>QSlider::TickPosition::TicksAbove</enum>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="resetButton">
+       <property name="geometry">
+        <rect>
+         <x>630</x>
+         <y>480</y>
+         <width>161</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/resources/resetButton.png) 240 240 240 240 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/resources/resetButton.png) 240 240 240 240 stretch stretch;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/resources/resetButton.png) 240 240 240 240 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="returnFromSettingsButton">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>479</y>
+         <width>161</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/resources/ReturnButton.png) 240 240 240 240 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/resources/ReturnDarkButton.png) 240 240 240 240 stretch stretch;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/resources/ReturnDarkButton.png) 240 240 240 240 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="settingsLabel">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>-40</y>
+        <width>711</width>
+        <height>561</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="lessonsImages.qrc">:/lessons/lessonsImages/settingsLabel.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="LessonsPage" name="lessonsPage">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="QPushButton" name="returnFromLessonsButton">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>790</y>
+        <width>180</width>
+        <height>180</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/resources/ReturnButton.png) 240 240 240 240 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+	background: transparent;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/resources/ReturnDarkButton.png) 240 240 240 240 stretch stretch;
+	background: transparent;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/resources/ReturnDarkButton.png) 240 240 240 240 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+	background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="selectLesson">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>-60</y>
+        <width>500</width>
+        <height>500</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    border-image: url(:/lessons/lessonsImages/selectLesson.png) 0 0 0 0 stretch;
+    border: none;
+    background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="freeStyleButton">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>410</y>
+        <width>350</width>
+        <height>350</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/lessons/lessonsImages/freeStyleBook.png) 120 180 85 180 stretch stretch; /*top, left, bottom, right */
+    border: none; /* Remove border */
+    padding: 0px;
+	background: transparent;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/lessons/lessonsImages/freeStyleBookDark.png) 120 180 85 180 stretch stretch;
+	background: transparent;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/lessons/lessonsImages/freeStyleBookDark.png) 120 180 85 180 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+	background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="lessonOneButton">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>330</y>
+        <width>350</width>
+        <height>350</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/lessons/lessonsImages/BasicPianoNotesBook.png) 0 0 0 0 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+	background: transparent;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/lessons/lessonsImages/BasicPianoNotesBook.png) 0 0 0 0 stretch stretch;
+	background: transparent;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/lessons/lessonsImages/BasicPianoNotesBook.png) 0 0 0 0 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+	background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="lessonTwoButton">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>330</y>
+        <width>350</width>
+        <height>350</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/lessons/lessonsImages/MajorAndMinorChordsBook.png) 0 0 0 0 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+	background: transparent;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/lessons/lessonsImages/MajorAndMinorChordsBook.png) 0 0 0 0 stretch stretch;
+	background: transparent;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/lessons/lessonsImages/MajorAndMinorChordsBook.png) 0 0 0 0 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+	background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="lessonThreeButton">
+      <property name="geometry">
+       <rect>
+        <x>1280</x>
+        <y>330</y>
+        <width>350</width>
+        <height>350</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/lessons/lessonsImages/MajorAndMinorTriadsBook.png) 0 0 0 0 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+	background: transparent;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/lessons/lessonsImages/MajorAndMinorTriadsBook.png) 0 0 0 0 stretch stretch;
+	background: transparent;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/lessons/lessonsImages/MajorAndMinorTriadsBook.png) 0 0 0 0 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+	background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="lessonFourButton">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>680</y>
+        <width>350</width>
+        <height>350</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/lessons/lessonsImages/MajorAndMinorScalesBook.png) 0 0 0 0 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+	background: transparent;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/lessons/lessonsImages/MajorAndMinorScalesBook.png)  0 0 0 0 stretch stretch;
+	background: transparent;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/lessons/lessonsImages/MajorAndMinorScalesBook.png)  0 0 0 0 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+	background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="lessonFiveButton">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>680</y>
+        <width>350</width>
+        <height>350</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/lessons/lessonsImages/IdentifyingBook.png) 0 0 0 0 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+	background: transparent;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/lessons/lessonsImages/IdentifyingBook.png) 0 0 0 0 stretch stretch;
+	background: transparent;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/lessons/lessonsImages/IdentifyingBook.png) 0 0 0 0 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+	background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="lessonSixButton">
+      <property name="geometry">
+       <rect>
+        <x>1280</x>
+        <y>680</y>
+        <width>350</width>
+        <height>350</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/lessons/lessonsImages/PlayingBook.png) 0 0 0 0 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+	background: transparent;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/lessons/lessonsImages/PlayingBook.png) 0 0 0 0 stretch stretch;
+	background: transparent;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/lessons/lessonsImages/PlayingBook.png) 0 0 0 0 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+	background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="MainPage" name="multiplayerPage">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="QPushButton" name="returnFromMultiplayerButton">
+      <property name="geometry">
+       <rect>
+        <x>1130</x>
+        <y>370</y>
+        <width>180</width>
+        <height>180</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/resources/ReturnButton.png) 240 240 240 240 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/resources/ReturnDarkButton.png) 240 240 240 240 stretch stretch;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/resources/ReturnDarkButton.png) 240 240 240 240 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="onlineMatchButton">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>370</y>
+        <width>180</width>
+        <height>180</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/resources/OnlineButton.png) 240 240 240 240 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/resources/OnlineDarkButton.png) 240 240 240 240 stretch stretch;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/resources/OnlineDarkButton.png) 240 240 240 240 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="localMatchButton">
+      <property name="geometry">
+       <rect>
+        <x>880</x>
+        <y>370</y>
+        <width>180</width>
+        <height>180</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/resources/LocalButton.png) 240 240 240 240 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/resources/LocalDarkButton.png) 240 240 240 240 stretch stretch;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/resources/LocalDarkButton.png) 240 240 240 240 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="selectGameModeLabel">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>-40</y>
+        <width>500</width>
+        <height>500</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="multiplayerImages.qrc">:/multiplayer/multiplayerImages/selectGameMode.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="MainPage" name="statisticsPage">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="QFrame" name="statisticsWidget">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>310</y>
+        <width>1551</width>
+        <height>461</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/resources/statisticsBackground.png);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="statisticsLabel">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>-30</y>
+        <width>531</width>
+        <height>431</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="resources.qrc">:/resources/statisticsHeader.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="returnFromStatisticsButton">
+      <property name="geometry">
+       <rect>
+        <x>1520</x>
+        <y>590</y>
+        <width>180</width>
+        <height>180</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/resources/ReturnButton.png) 240 240 240 240 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/resources/ReturnDarkButton.png) 240 240 240 240 stretch stretch;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/resources/ReturnDarkButton.png) 240 240 240 240 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="LessonsPage" name="freeStylePage">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>1280</width>
+       <height>720</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="QFrame" name="pianoPlaceholder">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>559</y>
+        <width>521</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="returnFromFreeStyleButton">
+      <property name="geometry">
+       <rect>
+        <x>1270</x>
+        <y>560</y>
+        <width>180</width>
+        <height>180</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Default Button Image */
+QPushButton {
+    border-image: url(:/resources/ReturnButton.png) 240 240 240 240 stretch stretch;
+    border: none; /* Remove border */
+    padding: 0px;
+	background: transparent;
+}
+
+/* Hover Effect: Show Darker Image */
+QPushButton:hover {
+    border-image: url(:/resources/ReturnDarkButton.png) 240 240 240 240 stretch stretch;
+	background: transparent;
+}
+
+/* Click Effect: Expand Image */
+QPushButton:pressed {
+    border-image: url(:/resources/ReturnDarkButton.png) 240 240 240 240 stretch stretch;
+    padding: -5px; /* Reduces padding to create a zoom-in effect */
+    border-width: 2px; 
+	background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="star1">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>360</y>
+        <width>91</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    border-image: url(:/resources/Star.png) 0 0 0 0 stretch;
+    border: none;
+    background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="star2">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>360</y>
+        <width>91</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    border-image: url(:/resources/Star.png) 0 0 0 0 stretch;
+    border: none;
+    background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="star3">
+      <property name="geometry">
+       <rect>
+        <x>950</x>
+        <y>360</y>
+        <width>91</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    border-image: url(:/resources/Star.png) 0 0 0 0 stretch;
+    border: none;
+    background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="star4">
+      <property name="geometry">
+       <rect>
+        <x>1050</x>
+        <y>360</y>
+        <width>91</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    border-image: url(:/resources/Star.png) 0 0 0 0 stretch;
+    border: none;
+    background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="star5">
+      <property name="geometry">
+       <rect>
+        <x>1150</x>
+        <y>360</y>
+        <width>91</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    border-image: url(:/resources/Star.png) 0 0 0 0 stretch;
+    border: none;
+    background: transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MainPage</class>
+   <extends>QWidget</extends>
+   <header location="global">mainpage.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>LessonsPage</class>
+   <extends>QWidget</extends>
+   <header location="global">lessonspage.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="resources.qrc"/>
+  <include location="multiplayerImages.qrc"/>
+  <include location="lessonsImages.qrc"/>
+ </resources>
+ <connections/>
+</ui>

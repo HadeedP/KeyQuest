@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/KeyQuest.png</file>
+        <file>resources/QuizzesButton.png</file>
+        <file>resources/QuizzesDarkButton.png</file>
+        <file>resources/StatisticsButton.png</file>
+        <file>resources/StatisticsDarkButton.png</file>
+        <file>resources/LessonsButton.png</file>
+        <file>resources/LessonsDarkButton.png</file>
+        <file>resources/ExitButton.png</file>
+        <file>resources/ExitDarkButton.png</file>
+        <file>resources/MultiplayerButton.png</file>
+        <file>resources/MultiplayerDarkButton.png</file>
+        <file>resources/SettingsButton.png</file>
+        <file>resources/SettingsDarkButton.png</file>
+        <file>resources/ReturnButton.png</file>
+		<file>resources/ReturnDarkButton.png</file>
+		<file>resources/OnlineButton.png</file>
+		<file>resources/OnlineDarkButton.png</file>
+		<file>resources/LocalButton.png</file>
+		<file>resources/LocalDarkButton.png</file>
+    	<file>resources/questionBank.json</file>
+	<file>resources/StartButton.png</file>
+	<file>resources/StartButtonDark.png</file>
+    <file>resources/settingsBackground.png</file>
+    <file>resources/resetButton.png</file>
+	<file>resources/data.json</file>
+	<file>resources/statisticsHeader.png</file>
+	<file>resources/statisticsBackground.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/lessons">
+        <file>lessonsImages/MajorAndMinorChordsBook.png</file>
+        <file>lessonsImages/MajorAndMinorScalesBook.png</file>
+        <file>lessonsImages/MajorAndMinorTriadsBook.png</file>
+        <file>lessonsImages/PlayingBook.png</file>
+        <file>lessonsImages/BasicPianoNotesBook.png</file>
+        <file>lessonsImages/IdentifyingBook.png</file>
+        <file>lessonsImages/selectLesson.png</file>
+        <file>lessonsImages/lessonsBackground.png</file>
+        <file>lessonsImages/freeStyleBookDark.png</file>
+        <file>lessonsImages/freeStyleBook.png</file>
+        <file>lessonsImages/lessonsTopicBackground.png</file>
+        <file>lessonsImages/localGameBackground.png</file>
+        <file>lessonsImages/lessonsGameBackground.png</file>
+	<file>lessonsImages/selectQuizzes.png</file>
+    <file>lessonsImages/settingsLabel.png</file>
+    </qresource>
+</RCC>

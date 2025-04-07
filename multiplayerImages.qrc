@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/multiplayer">
+        <file>multiplayerImages/selectGameMode.png</file>
+    </qresource>
+</RCC>

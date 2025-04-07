@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/piano">
+        <file>pianoImages/pianoOctave.png</file>
+        <file>pianoImages/piano.png</file>
+        <file>pianoImages/whiteBackground.png</file>
+        <file>pianoImages/darkBackground.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/sounds">
+	    <file alias="piano.sf2">soundFiles/UprightPianoKW-20220221.sf2</file>
+        <file>soundFiles/buttonClick.wav</file>
+        <file>soundFiles/anoen.mp3</file>
+        <file>soundFiles/quend.mp3</file>
+    </qresource>
+</RCC>
